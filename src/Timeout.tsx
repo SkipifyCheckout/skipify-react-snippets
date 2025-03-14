@@ -66,7 +66,7 @@ const Timeout = () => {
                 },
                 onClick: (myRef: string) => {
                     timeoutId.current = setTimeout(() => {  // Set a timeout to close the checkout
-                        window.location.href = "/";  // Redirect to home
+                        window.location.href = "/skipify-react-snippets/";  // Redirect to home
                     }, timeoutOrder);
                 },
             };
